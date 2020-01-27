@@ -74,26 +74,20 @@ let createTable=function(){
 
   let content=document.getElementById("content");
   content.appendChild(table);
-  table.style.borderCollapse="collapse";
-  table.style.border="1px solid black";
-  table.style.border="1px solid black";
-  table.style.border="1px solid black";
+
+
 };
 
 
+let addClass=function (id) {
+
+}
 
 
 
 
-let togglePlayers=function(){
-  if(X==true){
-      //hover x
-  }else{
-      //hover o
-  }
 
-};
-//row== up and down collum== left and right
+
 
 //first step=table
 //second step click on cell x and o show onkeyup
